@@ -1,0 +1,7 @@
+node_modules/
+.expo/
+dist/
+npm-debug.*
+*.keystore
+Lab_05_RN_SwiftRepos.docx
+_handout_copy.docx
