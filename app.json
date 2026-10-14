@@ -1,9 +1,21 @@
 {
   "expo": {
-    "name": "Swift Repos",
-    "slug": "swift-repos-rn",
+    "name": "Simple Contacts",
+    "slug": "simple-contacts-rn",
     "version": "1.0.0",
     "orientation": "portrait",
-    "userInterfaceStyle": "light"
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "This app needs access to your photos so you can add a picture to a contact."
+      }
+    },
+    "android": {
+      "permissions": ["READ_EXTERNAL_STORAGE"]
+    },
+    "plugins": [["expo-image-picker", {
+      "photosPermission": "This app needs access to your photos so you can add a picture to a contact."
+    }]]
   }
 }

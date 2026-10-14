@@ -1,4 +1,4 @@
 export type RootStackParamList = {
-  Home: undefined;
-  RepoWebView: { url: string; name: string };
+  People: undefined;
+  EditPerson: { personId: string };
 };
