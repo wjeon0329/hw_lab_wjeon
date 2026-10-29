@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "FindMyCarRN",
+    "slug": "find-my-car-rn",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app needs your location to save where you parked the car."
+      }
+    },
+    "android": {
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
+    },
+    "plugins": [
+      "expo-font",
+      ["expo-location", {
+        "locationWhenInUsePermission": "This app needs your location to save where you parked the car."
+      }]
+    ]
+  }
+}
