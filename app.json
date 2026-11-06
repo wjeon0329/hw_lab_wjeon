@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "EmojiHunterRN",
+    "slug": "emoji-hunter-rn",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "We need the camera to hunt for emoji objects in the real world."
+      }
+    },
+    "android": { "permissions": ["CAMERA"] },
+    "plugins": [
+      ["expo-camera", {
+        "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera to hunt for emoji objects.",
+        "recordAudioAndroid": false
+      }]
+    ]
+  }
+}

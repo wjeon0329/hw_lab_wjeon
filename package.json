@@ -1,0 +1,33 @@
+{
+  "name": "emoji-hunter-rn",
+  "version": "1.0.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "test": "jest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@tensorflow-models/mobilenet": "2.1.1",
+    "@tensorflow/tfjs": "4.22.0",
+    "buffer": "^6.0.3",
+    "expo": "58.0.23",
+    "expo-asset": "~58.0.20",
+    "expo-camera": "~58.0.14",
+    "expo-file-system": "~58.0.13",
+    "expo-image-manipulator": "~58.0.16",
+    "jpeg-js": "0.4.4",
+    "react": "19.3.0",
+    "react-native": "0.88.1"
+  },
+  "devDependencies": {
+    "@react-native/jest-preset": "0.88.1",
+    "@types/jest": "30.0.0",
+    "@types/react": "~19.3.0",
+    "jest": "~30.5.2",
+    "jest-expo": "~58.0.14",
+    "typescript": "~6.0.3"
+  },
+  "jest": { "preset": "jest-expo" }
+}
