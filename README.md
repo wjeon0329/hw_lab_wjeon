@@ -16,16 +16,6 @@ Scan the new QR code with the iPhone Camera and open it in Expo Go for SDK 58. T
 
 The app uses TensorFlow.js with the CPU backend, Expo Camera, Image Manipulator, and FileSystem. This keeps the lab compatible with the SDK 58 Expo Go native modules. The MobileNet model is included as app assets and camera frames are processed locally.
 
-## Submission screenshots
-
-1. Live camera with the target emoji and countdown visible.
-2. **FOUND!** result with the **NEXT** button.
-3. **NOT FOUND** result after letting a round expire.
-4. **GAME OVER** after the last round.
-5. Terminal with the test results. There are nine reducer tests and three label-matching tests.
-
-GitHub branch `hw_lab9_EmojiHunter`.
-
 ## Model
 
 Google MobileNet V2, 0.50 width, 224×224 ImageNet classification, TensorFlow.js variation version 3. [Model source](https://www.kaggle.com/models/google/mobilenet-v2/tfJs/050-224-classification/3).
